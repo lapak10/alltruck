@@ -93,4 +93,4 @@ Template Name: customer-add-transporter
     </div>
 	</section>
 	<!--footer-->
-	
+	<?php get_footer(); ?>

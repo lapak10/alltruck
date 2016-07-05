@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: customer-add-transporter
+Template Name: transporter-add-transporter
 */
 ?>
 
@@ -17,32 +17,31 @@ Template Name: customer-add-transporter
 	<div class="container">
 	<div class="row">
 		<div class="col-md-12">
-		<a href="customer-home.html">
+		<a href="transporter-home.html">
 		<div class="col-md-2 hortab">
 		Home
 		</div>
 		</a>
-		<a href="customer-post.html">
+		<a href="transporter-post.html">
 		<div class="col-md-2 hortab">
-		Post Load
+		Post Truck
 		</div>
 		</a>
-		<a href="customer-find.html">
+		<a href="transporter-find.html">
 		<div class="col-md-2 hortab">
-		Find Truck
+		Find Load
 		</div>
 		</a>
-		<a href="customer-distance.html">
+		<a href="transporter-distance.html">
 		<div class="col-md-2 hortab">
 		Distance Calculator
 		</div>
 		</a>
-		<a href="customer-pricing.html">
+		<a href="transporter-pricing.html">
 		<div class="col-md-2 hortab">
-		Quotations
-		</div>
+		Truck Requests</div>
 		</a>
-		<a href="customer-add.html">
+		<a href="transporter-add.html">
 		<div class="col-md-2 hortab-active">
 		Add Ons
 		</div>
@@ -51,23 +50,23 @@ Template Name: customer-add-transporter
 		
 		<div class="col-md-12">
 		 <div class="col-sm-3">
-			    <a href="customer-add.html">
+			    <a href="transporter-add.html">
 				<div class="vertab">
 		        Pin Code Search
 		        </div></a>
-				<a href="customer-add-werehouse.html">
+				<a href="transporter-add-werehouse.html">
 				<div class="vertab">
 		        Warehouse Enquiry
 		        </div></a>
-				<a href="customer-add-franchise.html">
+				<a href="transporter-add-franchise.html">
 				<div class="vertab">
 		        Franchise Inquiry
 		        </div></a>
-				<a href="customer-add-loan.html">
+				<a href="transporter-add-loan.html">
 				<div class="vertab">
 		        Vehicle Loan Inquiry
 		        </div></a>
-				<a href="customer-add-transporter.html">
+				<a href="transporter-add-transporter.html">
 				<div class="vertab-active">
 		        Transporter Directory
 		        </div></a>
@@ -93,4 +92,4 @@ Template Name: customer-add-transporter
     </div>
 	</section>
 	<!--footer-->
-	
+	<?php get_footer(); ?>

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: customer-add-transporter
+Template Name: customer-add-werehouse
 */
 ?>
 
@@ -56,7 +56,7 @@ Template Name: customer-add-transporter
 		        Pin Code Search
 		        </div></a>
 				<a href="customer-add-werehouse.html">
-				<div class="vertab">
+				<div class="vertab-active">
 		        Warehouse Enquiry
 		        </div></a>
 				<a href="customer-add-franchise.html">
@@ -68,23 +68,35 @@ Template Name: customer-add-transporter
 		        Vehicle Loan Inquiry
 		        </div></a>
 				<a href="customer-add-transporter.html">
-				<div class="vertab-active">
+				<div class="vertab">
 		        Transporter Directory
 		        </div></a>
 				
 			</div>
 			<div class="col-md-9">
 			<form action="" class="">
-					<h4>Directory</h4>
-					<div class="col-md-6">
-					    <h5>Search By Company Name</h5>
-					    <input type="text" required class="form-control-vin form-vin" placeholder="Company">
+					<h4>Warehouse Enquiry</h4>
+					<div class="col-md-3">
+					    <input type="tel" required class="form-control-vin form-vin" placeholder="Phone">
 					</div>
-					<div class="col-md-6">
-					    <h5>Search By City</h5>
-					    <input type="text" required class="form-control-vin form-vin" placeholder="City">
+					<div class="col-md-3">
+					    <input type="text" required class="form-control-vin form-vin" placeholder="Name">
 					</div>
-					<button type="submit" class="btn btn1 btn-red1">Search</button>
+					<div class="col-md-3">
+					    <input type="email" required class="form-control-vin form-vin" placeholder="Email">
+					</div>
+					<div class="col-md-3">
+					    <select required class="form-control-vin form-vin" >
+						<option disabled selected>Message Categary</option>
+						<option value="Warehouse">Warehouse Enquiry</option>
+						<option value="Franchise">Franchise Enquiry</option>
+						<option value="Loan">Loan Enquiry</option>
+						</select>
+					</div>
+					<div class="col-md-12">
+					    <input type="text" required class="form-control-vin form-vin" placeholder="Message">
+					</div>
+						<button type="submit" class="btn btn1 btn-red1">Submit</button>
 						
 				</form>
 			</div>   
@@ -93,4 +105,4 @@ Template Name: customer-add-transporter
     </div>
 	</section>
 	<!--footer-->
-	
+	<?php get_footer(); ?>

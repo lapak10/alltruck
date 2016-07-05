@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: customer-add-transporter
+Template Name: customer-add
 */
 ?>
 
@@ -52,7 +52,7 @@ Template Name: customer-add-transporter
 		<div class="col-md-12">
 		 <div class="col-sm-3">
 			    <a href="customer-add.html">
-				<div class="vertab">
+				<div class="vertab-active">
 		        Pin Code Search
 		        </div></a>
 				<a href="customer-add-werehouse.html">
@@ -68,29 +68,49 @@ Template Name: customer-add-transporter
 		        Vehicle Loan Inquiry
 		        </div></a>
 				<a href="customer-add-transporter.html">
-				<div class="vertab-active">
+				<div class="vertab">
 		        Transporter Directory
 		        </div></a>
 				
 			</div>
 			<div class="col-md-9">
 			<form action="" class="">
-					<h4>Directory</h4>
-					<div class="col-md-6">
-					    <h5>Search By Company Name</h5>
-					    <input type="text" required class="form-control-vin form-vin" placeholder="Company">
+					<h4>Search Pin Code</h4>
+					<div class="col-md-3">
+					    <select required class="form-control-vin form-vin" >
+						<option disabled selected>Country</option>
+						<option value="open">India</option>
+						<option value="closed">Afganistan</option>
+						</select>
 					</div>
-					<div class="col-md-6">
-					    <h5>Search By City</h5>
-					    <input type="text" required class="form-control-vin form-vin" placeholder="City">
+					<div class="col-md-3">
+					    <select required class="form-control-vin form-vin" >
+						<option disabled selected>State</option>
+						<option value="open">Uttar Pardesh</option>
+						<option value="closed">Haryana</option>
+						</select>
 					</div>
-					<button type="submit" class="btn btn1 btn-red1">Search</button>
-						
+					<div class="col-md-3">
+					    <select required class="form-control-vin form-vin" >
+						<option disabled selected>District</option>
+						<option value="open">G B Nagar</option>
+						<option value="closed">Gurugram</option>
+						</select>
+					</div>
+					<div class="col-md-3">
+					    <select required class="form-control-vin form-vin" >
+						<option disabled selected>City</option>
+						<option value="open">noida</option>
+						<option value="closed">Palam Vihar</option>
+						</select>
+					</div>
+						<button type="submit" class="btn btn1 btn-red">Search</button>
+						<button type="reset" class="btn btn1 btn-green">Clear</button>
 				</form>
 			</div>   
 		</div>
 	</div>
     </div>
 	</section>
-	<!--footer-->
 	
+	<?php get_footer(); ?>
