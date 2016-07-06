@@ -1,12 +1,3 @@
-<?php
-/*
-Template Name: transporter-add-franchise
-*/
-?>
-
-
-	
-		 
 <?php get_header(); ?>
 	
 	<!--header-->

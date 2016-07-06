@@ -1,12 +1,3 @@
-<?php
-/*
-Template Name: transporter-find
-*/
-?>
-
-
-	
-		 
 <?php get_header(); ?>
 	<!--header-->
 	<div style="height: 150px;  background: black; margin-bottom: 50px;">
@@ -16,37 +7,7 @@ Template Name: transporter-find
 	<section>
 	<div class="container">
 	<div class="row">
-		<div class="col-md-12">
-		<a href="transporter-home.html">
-		<div class="col-md-2 hortab">
-		Home
-		</div>
-		</a>
-		<a href="transporter-post.html">
-		<div class="col-md-2 hortab">
-		Post Truck
-		</div>
-		</a>
-		<a href="transporter-find.html">
-		<div class="col-md-2 hortab-active">
-		Find Load
-		</div>
-		</a>
-		<a href="transporter-distance.html">
-		<div class="col-md-2 hortab">
-		Distance Calculator
-		</div>
-		</a>
-		<a href="transporter-pricing.html">
-		<div class="col-md-2 hortab">
-		Truck Requests</div>
-		</a>
-		<a href="transporter-add.html">
-		<div class="col-md-2 hortab">
-		Add Ons
-		</div>
-		</a>
-		</div>
+				<?php get_template_part( 'menu','transporter' ); ?>
 		
 		<div class="col-md-12">
 		<form action="" class="">

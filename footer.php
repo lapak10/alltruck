@@ -9,7 +9,7 @@
 					<input type="password" class="form-control form-white" placeholder="Password">
 					<div class="checkbox-holder text-left">
 						<div class="register">
-							Not A Member? <a href="registration.php">Register Now</a>
+							Not A Member? <a href="<?php echo get_permalink ( get_page_by_path( 'registration' ) ) ;?>">Register Now</a>
 						</div>
 					</div>
 					<button type="submit" class="btn btn-submit">Sign In</button>

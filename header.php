@@ -58,8 +58,8 @@
 					<!--<li><a href="#intro">Intro</a></li>
 					<li><a href="#services">Services</a></li>
 					<li><a href="#team">Team</a></li>-->
-					<li><a href="customer-home.html">Customer Page</a></li>
-					<li><a href="transporter-home.html">Transporter Page</a></li>
+					<li><a href="<?php echo get_permalink ( get_page_by_path( 'customer-home' ) ) ;?>">Customer Page</a></li>
+					<li><a href="<?php echo get_permalink ( get_page_by_path( 'transporter-home' ) ) ;?>">Transporter Page</a></li>
 					<li>
 					<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">
 					Login/Sign Up

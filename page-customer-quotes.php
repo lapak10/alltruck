@@ -1,12 +1,3 @@
-<?php
-/*
-Template Name: customer-quotes
-*/
-?>
-
-
-	
-		 
 <?php get_header(); ?>
 	
 	<!--header-->
@@ -17,38 +8,7 @@ Template Name: customer-quotes
 	<section>
 	<div class="container">
 	<div class="row">
-		<div class="col-md-12">
-		<a href="customer-home.html">
-		<div class="col-md-2 hortab">
-		Home
-		</div>
-		</a>
-		<a href="customer-post.html">
-		<div class="col-md-2 hortab">
-		Post Load
-		</div>
-		</a>
-		<a href="customer-find.html">
-		<div class="col-md-2 hortab">
-		Find Truck
-		</div>
-		</a>
-		<a href="customer-distance.html">
-		<div class="col-md-2 hortab">
-		Distance Calculator
-		</div>
-		</a>
-		<a href="customer-pricing.html">
-		<div class="col-md-2 hortab-active">
-		Quotations
-		</div>
-		</a>
-		<a href="customer-add.html">
-		<div class="col-md-2 hortab">
-		Add Ons
-		</div>
-		</a>
-		</div>
+		<?php get_template_part( 'menu','customer' ); ?>
 		
 		<div class="col-md-12">
 		    

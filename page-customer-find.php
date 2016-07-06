@@ -1,12 +1,3 @@
-<?php
-/*
-Template Name: customer-find
-*/
-?>
-
-
-	
-		 
 <?php get_header(); ?>
 	<!--header-->
 	<div style="height: 150px;  background: black; margin-bottom: 50px;">
@@ -16,38 +7,7 @@ Template Name: customer-find
 	<section>
 	<div class="container">
 	<div class="row">
-		<div class="col-md-12">
-		<a href="customer-home.html">
-		<div class="col-md-2 hortab">
-		Home
-		</div>
-		</a>
-		<a href="customer-post.html">
-		<div class="col-md-2 hortab">
-		Post Load
-		</div>
-		</a>
-		<a href="customer-find.html">
-		<div class="col-md-2 hortab-active">
-		Find Truck
-		</div>
-		</a>
-		<a href="customer-distance.html">
-		<div class="col-md-2 hortab">
-		Distance Calculator
-		</div>
-		</a>
-		<a href="customer-pricing.html">
-		<div class="col-md-2 hortab">
-		Quotations
-		</div>
-		</a>
-		<a href="customer-add.html">
-		<div class="col-md-2 hortab">
-		Add Ons
-		</div>
-		</a>
-		</div>
+		<?php get_template_part( 'menu','customer' ); ?>
 		
 		<div class="col-md-12">
 		    <form action="" class="">
